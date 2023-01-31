@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headshot {
+    border-radius: 100%;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 30px;
+    right: 250px;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 230px;
+    bottom: 250px;
+}
+
+.cityscape {
+    width: 100%;
+}
+
+.img-arch {
+    width: 80%;
+    height: auto;
+}
+
+.top {
+    background-color: #AEF6F6;
+    position: relative;
+    padding: 200px 0 0 0;
+}
+
+.bottom {
+    background-color: #AEF6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-top-color: gray;
+    border-width: 5px 0 0 0;
+    color: rgb(96, 0, 252);
+    font-size: 1.5em;
+}
+
+.contactpage {
+    background-color: #AEF6F6;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #668F8F;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #668F8F;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: overline;
+}
+
+a.contactlink:link,
+a.contactlink:visited {
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.contactlink:hover,
+a.contactlink:active {
+    background-color: rgb(0, 80, 0);
+}
+
+.row {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.column {
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    width: 35%;
+}
+
+.right {
+    width: 65%;
+}
+
+.clear {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    width: 30%;
+    border-top: dashed #c3c3c3 8px;
+    border-bottom: none;
+    margin: 70px auto 70px auto;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 25px;
+    margin: 150px auto;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+input, textarea {
+    border: 1px solid rgba(146, 144, 144, 0.8);
+    background-color: white;
+    padding: 15px;
+    width: 90%;
+    margin: 12px auto;
+    display: block;
+}
+
+.button {
+    background-color: #c3c3c3;
+    width: 30%;
+}
+
+.button:hover {
+    background-color: #696969;
+}
