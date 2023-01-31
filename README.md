@@ -1,1 +1,1 @@
-# boredom180.github.io asdasd
+# This is a site used for a college assignment.
